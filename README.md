@@ -25,7 +25,7 @@ Bootstra: For styling and responsive design.
 React Context API: For state management (optional, if used).
 
 ## Live Demo
-https://employdata-list.netlify.app/login
+https://employdata-list.netlify.app
 
 ## Installation
 
