@@ -54,6 +54,4 @@ Error messages are displayed for failed API calls or invalid form inputs.
 
 Client-side search and filtering: Users can search and filter the list of users.
 
-React Router: Used for seamless navigation between the login, user list, and edit user pages.
-
 Hosted on Netlify: The application is deployed and accessible online.
