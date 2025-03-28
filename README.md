@@ -1,7 +1,7 @@
 # Overview
 This is a React application that integrates with the Regres API to perform basic user management functions, including authentication, listing users, and editing/deleting user data.
 
-# Features
+## Features
 1.Authentication Screen: Login with predefined credentials (email: eve.holt@regres.in, password: cityslicka).
 
 2.Users List: Paginated display of users with their first name, last name, and avatar.
@@ -12,7 +12,7 @@ This is a React application that integrates with the Regres API to perform basic
 
 5.Error Handling: Graceful handling of API errors and form validation.
 
-# Technologies Used
+## Technologies Used
 
 React: Frontend framework.
 
@@ -24,9 +24,10 @@ Bootstra: For styling and responsive design.
 
 React Context API: For state management (optional, if used).
 
-# Live Demo
+## Live Demo
 https://employdata-list.netlify.app/login
-# Installation
+
+## Installation
 
 To run this project locally, follow these steps:
 
