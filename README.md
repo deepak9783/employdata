@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Overview
+This is a React application that integrates with the Regres API to perform basic user management functions, including authentication, listing users, and editing/deleting user data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+1.Authentication Screen: Login with predefined credentials (email: eve.holt@regres.in, password: cityslicka).
 
-## Available Scripts
+2.Users List: Paginated display of users with their first name, last name, and avatar.
 
-In the project directory, you can run:
+3.Edit/Delete Users: Options to edit or delete user details with appropriate API calls.
 
-### `npm start`
+4.Responsive UI: Works well on both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5.Error Handling: Graceful handling of API errors and form validation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used
 
-### `npm test`
+React: Frontend framework.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router: For navigation between pages.
 
-### `npm run build`
+Axios: For HTTP requests to the Regres API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bootstra: For styling and responsive design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Context API: For state management (optional, if used).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Live Demo
+https://employdata-list.netlify.app/login
+# Installation
 
-### `npm run eject`
+To run this project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.Clone the repository:[git clone [https://github.com/deepak9783/employdata.git](https://github.com/deepak9783/employdata.git)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.Navigate to the project directory:[cd employwise-app](cd employwise-app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.Install the dependencies:[npm install](npm install)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.Start the development server:[npm start](npm start)
 
-## Learn More
+5.Open your browser and visit:[http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Assumptions and Considerations
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The login credentials are hardcoded as per the assignment instructions (eve.holt@regres.in and cityslicka).
 
-### Code Splitting
+The application uses session storage to persist the login token.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pagination is implemented to navigate through user pages.
 
-### Analyzing the Bundle Size
+Error messages are displayed for failed API calls or invalid form inputs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Bonus Features Implemented
 
-### Making a Progressive Web App
+Client-side search and filtering: Users can search and filter the list of users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React Router: Used for seamless navigation between the login, user list, and edit user pages.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hosted on Netlify: The application is deployed and accessible online.
