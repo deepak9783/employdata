@@ -33,11 +33,11 @@ To run this project locally, follow these steps:
 
 1.Clone the repository:[git clone [https://github.com/deepak9783/employdata.git](https://github.com/deepak9783/employdata.git)
 
-2.Navigate to the project directory:[cd employwise-app](cd employwise-app)
+2.Navigate to the project directory: cd employwise-app
 
-3.Install the dependencies:[npm install](npm install)
+3.Install the dependencies:npm install
 
-4.Start the development server:[npm start](npm start)
+4.Start the development server:npm start
 
 5.Open your browser and visit:[http://localhost:3000](http://localhost:3000)
 
